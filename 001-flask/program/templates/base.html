@@ -8,7 +8,11 @@
         <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
         <title>static site title</title>
     </head>
-<body><div class="mui-container">
+<body>
+    <nav class="mui-panel">menu: 
+        <button class="mui-button"><a href="/">home</a></button>
+        <button class="mui-button"><a href="/hello/">hello</a></button>
+    </nav><div class="mui-container">
     <div class="mui-panel">
     {% block content %}base content{% endblock %}
     </div></div>
